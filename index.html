@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Convertitore numeri romani</title>
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Convertitore numeri romani</h1>
+        <hr />
+        <h3>Script javascript che consente la conversione di un numero romano in un numero arabo.</h3>
+        
+        <div class="legenda">
+            <p>Associazione Numeri Romani > Numeri Arabi</p>
+            <hr />
+            <ul>
+                <li>I = 1</li>
+                <li>V = 5</li>
+                <li>X = 10</li>
+                <li>L = 50</li>
+                <li>C = 100</li>
+                <li>D = 500</li>
+                <li>M = 1000</li>
+            </ul>
+        </div>
+        
+        <div class="legenda">
+            <p>Alcuni esempi:</p>
+            <hr />
+            <ul>
+                <li>IX = 9</li>
+                <li>VL = 45</li>
+                <li>MLXXIV = 1074</li>
+                <li>MMDIC = 2599</li>
+            </ul>
+        </div>
+        
+        <h4>Inserisci il numero romano nella casella di testo e premi il pulsante per generare il numero arabo.</h4>
+        <form onsubmit="calcola(); return false;">
+            <input type="text" pattern=([IVXLCDM])+ id="numero-romano" />
+            <input type="submit" value="Converti" />
+        </form>
+
+        <p>Numero arabo: <span id="numero-arabo"></span></p>
+    </body>
+</html>

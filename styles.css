@@ -1,0 +1,23 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    padding: 20px;
+}
+
+div.legenda {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: lightgrey;
+    border: .5px dotted gray;
+}
+
+input {
+    font-size: 20px;
+    padding: 8px;
+}
+
+#numero-arabo {
+    font-weight: bold;
+}
